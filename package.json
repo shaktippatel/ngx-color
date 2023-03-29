@@ -6,6 +6,7 @@
   "bugs": "https://github.com/scttcper/ngx-color/issues",
   "repository": "scttcper/ngx-color",
   "scripts": {
+    "prepare": "npm run build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng-packagr -p ./src/lib/ng-package.json && cp README.md ./dist && cp LICENSE ./dist",
